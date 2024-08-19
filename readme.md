@@ -15,15 +15,6 @@ DB_LOG_TABLE=logs
 DB_LOG_CONNECTION=mysql
 ~~~
 
-For Laravel `< 5.5` open up `config/app.php` and find the `providers` key.
-
-~~~
-'providers' => array(
-    // ...
-    ITelmenko\Logger\Laravel\Providers\MonologMysqlHandlerServiceProvider::class,
-);
-~~~
-
 Publish config using Laravel Artisan CLI.
 
 ~~~
