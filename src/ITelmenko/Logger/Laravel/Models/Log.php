@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Concerns\HasUlids;
 
 class Log extends Model {
 
-    use HasUlid;
+    use HasUlids;
 
     protected $fillable = [
         'instance',
